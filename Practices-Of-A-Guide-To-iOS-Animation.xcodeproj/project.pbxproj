@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF65CE4C1C1ACE9F008D3DDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE4B1C1ACE9F008D3DDD /* main.m */; };
+		CF65CE4F1C1ACE9F008D3DDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE4E1C1ACE9F008D3DDD /* AppDelegate.m */; };
+		CF65CE521C1ACE9F008D3DDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE511C1ACE9F008D3DDD /* ViewController.m */; };
+		CF65CE551C1ACE9F008D3DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65CE531C1ACE9F008D3DDD /* Main.storyboard */; };
+		CF65CE571C1ACE9F008D3DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF65CE561C1ACE9F008D3DDD /* Assets.xcassets */; };
+		CF65CE5A1C1ACE9F008D3DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65CE581C1ACE9F008D3DDD /* LaunchScreen.storyboard */; };
+		CF65CE651C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE641C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationTests.m */; };
+		CF65CE701C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE6F1C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m */; };
+		CF65CE7F1C1AD0D7008D3DDD /* LTUtilPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE7E1C1AD0D7008D3DDD /* LTUtilPackage.m */; };
+		CF65CE831C1ADF76008D3DDD /* UIImage+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE821C1ADF76008D3DDD /* UIImage+Custom.m */; };
+		CF65CE861C1AEDDC008D3DDD /* LTDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE851C1AEDDC008D3DDD /* LTDisplayVC.m */; };
+		CF65CE8D1C1BC91A008D3DDD /* ParentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE8C1C1BC91A008D3DDD /* ParentView.m */; };
+		CF65CE911C1BCABC008D3DDD /* CircleDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE901C1BCABC008D3DDD /* CircleDemoView.m */; };
+		CF65CE951C1BCB5A008D3DDD /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE941C1BCB5A008D3DDD /* CircleLayer.m */; };
+		CFDF7AD81C1E72B900E248A0 /* CurveDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7AD71C1E72B900E248A0 /* CurveDemoView.m */; };
+		CFDF7ADC1C1E796900E248A0 /* GooeySlideMenuDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7ADB1C1E796900E248A0 /* GooeySlideMenuDemoView.m */; };
+		CFDF7ADF1C1E7CBE00E248A0 /* GooeySlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7ADE1C1E7CBE00E248A0 /* GooeySlideMenu.m */; };
+		CFDF7AE21C1E7CD300E248A0 /* SlideMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7AE11C1E7CD300E248A0 /* SlideMenuButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF65CE611C1ACE9F008D3DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF65CE3F1C1ACE9F008D3DDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF65CE461C1ACE9F008D3DDD;
+			remoteInfo = "Practices-Of-A-Guide-To-iOS-Animation";
+		};
+		CF65CE6C1C1ACE9F008D3DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF65CE3F1C1ACE9F008D3DDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF65CE461C1ACE9F008D3DDD;
+			remoteInfo = "Practices-Of-A-Guide-To-iOS-Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF65CE471C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practices-Of-A-Guide-To-iOS-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF65CE4B1C1ACE9F008D3DDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF65CE4D1C1ACE9F008D3DDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF65CE4E1C1ACE9F008D3DDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF65CE501C1ACE9F008D3DDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF65CE511C1ACE9F008D3DDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF65CE541C1ACE9F008D3DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF65CE561C1ACE9F008D3DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF65CE591C1ACE9F008D3DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF65CE5B1C1ACE9F008D3DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF65CE601C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practices-Of-A-Guide-To-iOS-AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF65CE641C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practices_Of_A_Guide_To_iOS_AnimationTests.m; sourceTree = "<group>"; };
+		CF65CE661C1ACE9F008D3DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF65CE6B1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practices-Of-A-Guide-To-iOS-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF65CE6F1C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practices_Of_A_Guide_To_iOS_AnimationUITests.m; sourceTree = "<group>"; };
+		CF65CE711C1ACE9F008D3DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF65CE7D1C1AD0D7008D3DDD /* LTUtilPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTUtilPackage.h; path = "Practices-Of-A-Guide-To-iOS-Animation/LTUtilPackage.h"; sourceTree = "<group>"; };
+		CF65CE7E1C1AD0D7008D3DDD /* LTUtilPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTUtilPackage.m; path = "Practices-Of-A-Guide-To-iOS-Animation/LTUtilPackage.m"; sourceTree = "<group>"; };
+		CF65CE811C1ADF76008D3DDD /* UIImage+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Custom.h"; sourceTree = "<group>"; };
+		CF65CE821C1ADF76008D3DDD /* UIImage+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Custom.m"; sourceTree = "<group>"; };
+		CF65CE841C1AEDDC008D3DDD /* LTDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTDisplayVC.h; sourceTree = "<group>"; };
+		CF65CE851C1AEDDC008D3DDD /* LTDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTDisplayVC.m; sourceTree = "<group>"; };
+		CF65CE8B1C1BC91A008D3DDD /* ParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentView.h; sourceTree = "<group>"; };
+		CF65CE8C1C1BC91A008D3DDD /* ParentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentView.m; sourceTree = "<group>"; };
+		CF65CE8E1C1BCA14008D3DDD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CF65CE8F1C1BCABC008D3DDD /* CircleDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleDemoView.h; sourceTree = "<group>"; };
+		CF65CE901C1BCABC008D3DDD /* CircleDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDemoView.m; sourceTree = "<group>"; };
+		CF65CE931C1BCB5A008D3DDD /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		CF65CE941C1BCB5A008D3DDD /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		CFDF7AD61C1E72B900E248A0 /* CurveDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveDemoView.h; sourceTree = "<group>"; };
+		CFDF7AD71C1E72B900E248A0 /* CurveDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveDemoView.m; sourceTree = "<group>"; };
+		CFDF7ADA1C1E796900E248A0 /* GooeySlideMenuDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenuDemoView.h; sourceTree = "<group>"; };
+		CFDF7ADB1C1E796900E248A0 /* GooeySlideMenuDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenuDemoView.m; sourceTree = "<group>"; };
+		CFDF7ADD1C1E7CBE00E248A0 /* GooeySlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenu.h; sourceTree = "<group>"; };
+		CFDF7ADE1C1E7CBE00E248A0 /* GooeySlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenu.m; sourceTree = "<group>"; };
+		CFDF7AE01C1E7CD300E248A0 /* SlideMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuButton.h; sourceTree = "<group>"; };
+		CFDF7AE11C1E7CD300E248A0 /* SlideMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF65CE441C1ACE9F008D3DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65CE5D1C1ACE9F008D3DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65CE681C1ACE9F008D3DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF65CE3E1C1ACE9F008D3DDD = {
+			isa = PBXGroup;
+			children = (
+				CF65CE491C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation */,
+				CF65CE631C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationTests */,
+				CF65CE6E1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests */,
+				CF65CE481C1ACE9F008D3DDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF65CE481C1ACE9F008D3DDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE471C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation.app */,
+				CF65CE601C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationTests.xctest */,
+				CF65CE6B1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF65CE491C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE4B1C1ACE9F008D3DDD /* main.m */,
+				CF65CE8E1C1BCA14008D3DDD /* PrefixHeader.pch */,
+				CF65CE4D1C1ACE9F008D3DDD /* AppDelegate.h */,
+				CF65CE4E1C1ACE9F008D3DDD /* AppDelegate.m */,
+				CF65CE561C1ACE9F008D3DDD /* Assets.xcassets */,
+				CF65CE581C1ACE9F008D3DDD /* LaunchScreen.storyboard */,
+				CF65CE5B1C1ACE9F008D3DDD /* Info.plist */,
+				CFDF7AD51C1E722200E248A0 /* MainVC */,
+				CF65CE801C1AD0E8008D3DDD /* Utilities */,
+				CF65CE871C1AEF80008D3DDD /* AnimationViews */,
+				CF65CE4A1C1ACE9F008D3DDD /* Supporting Files */,
+			);
+			path = "Practices-Of-A-Guide-To-iOS-Animation";
+			sourceTree = "<group>";
+		};
+		CF65CE4A1C1ACE9F008D3DDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF65CE631C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE641C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationTests.m */,
+				CF65CE661C1ACE9F008D3DDD /* Info.plist */,
+			);
+			path = "Practices-Of-A-Guide-To-iOS-AnimationTests";
+			sourceTree = "<group>";
+		};
+		CF65CE6E1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE6F1C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m */,
+				CF65CE711C1ACE9F008D3DDD /* Info.plist */,
+			);
+			path = "Practices-Of-A-Guide-To-iOS-AnimationUITests";
+			sourceTree = "<group>";
+		};
+		CF65CE801C1AD0E8008D3DDD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE7D1C1AD0D7008D3DDD /* LTUtilPackage.h */,
+				CF65CE7E1C1AD0D7008D3DDD /* LTUtilPackage.m */,
+				CF65CE811C1ADF76008D3DDD /* UIImage+Custom.h */,
+				CF65CE821C1ADF76008D3DDD /* UIImage+Custom.m */,
+			);
+			name = Utilities;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CF65CE871C1AEF80008D3DDD /* AnimationViews */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE8B1C1BC91A008D3DDD /* ParentView.h */,
+				CF65CE8C1C1BC91A008D3DDD /* ParentView.m */,
+				CF65CE921C1BCB1F008D3DDD /* CircleDemo */,
+				CFDF7AD41C1E71E800E248A0 /* CurveDemo */,
+				CFDF7AD91C1E78B400E248A0 /* GooeySlideMenuDemo */,
+			);
+			name = AnimationViews;
+			sourceTree = "<group>";
+		};
+		CF65CE921C1BCB1F008D3DDD /* CircleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE8F1C1BCABC008D3DDD /* CircleDemoView.h */,
+				CF65CE901C1BCABC008D3DDD /* CircleDemoView.m */,
+				CF65CE931C1BCB5A008D3DDD /* CircleLayer.h */,
+				CF65CE941C1BCB5A008D3DDD /* CircleLayer.m */,
+			);
+			name = CircleDemo;
+			sourceTree = "<group>";
+		};
+		CFDF7AD41C1E71E800E248A0 /* CurveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFDF7AD61C1E72B900E248A0 /* CurveDemoView.h */,
+				CFDF7AD71C1E72B900E248A0 /* CurveDemoView.m */,
+			);
+			name = CurveDemo;
+			sourceTree = "<group>";
+		};
+		CFDF7AD51C1E722200E248A0 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				CF65CE501C1ACE9F008D3DDD /* ViewController.h */,
+				CF65CE511C1ACE9F008D3DDD /* ViewController.m */,
+				CF65CE531C1ACE9F008D3DDD /* Main.storyboard */,
+				CF65CE841C1AEDDC008D3DDD /* LTDisplayVC.h */,
+				CF65CE851C1AEDDC008D3DDD /* LTDisplayVC.m */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+		CFDF7AD91C1E78B400E248A0 /* GooeySlideMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFDF7ADA1C1E796900E248A0 /* GooeySlideMenuDemoView.h */,
+				CFDF7ADB1C1E796900E248A0 /* GooeySlideMenuDemoView.m */,
+				CFDF7ADD1C1E7CBE00E248A0 /* GooeySlideMenu.h */,
+				CFDF7ADE1C1E7CBE00E248A0 /* GooeySlideMenu.m */,
+				CFDF7AE01C1E7CD300E248A0 /* SlideMenuButton.h */,
+				CFDF7AE11C1E7CD300E248A0 /* SlideMenuButton.m */,
+			);
+			name = GooeySlideMenuDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF65CE461C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF65CE741C1ACE9F008D3DDD /* Build configuration list for PBXNativeTarget "Practices-Of-A-Guide-To-iOS-Animation" */;
+			buildPhases = (
+				CF65CE431C1ACE9F008D3DDD /* Sources */,
+				CF65CE441C1ACE9F008D3DDD /* Frameworks */,
+				CF65CE451C1ACE9F008D3DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practices-Of-A-Guide-To-iOS-Animation";
+			productName = "Practices-Of-A-Guide-To-iOS-Animation";
+			productReference = CF65CE471C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF65CE5F1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF65CE771C1ACE9F008D3DDD /* Build configuration list for PBXNativeTarget "Practices-Of-A-Guide-To-iOS-AnimationTests" */;
+			buildPhases = (
+				CF65CE5C1C1ACE9F008D3DDD /* Sources */,
+				CF65CE5D1C1ACE9F008D3DDD /* Frameworks */,
+				CF65CE5E1C1ACE9F008D3DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF65CE621C1ACE9F008D3DDD /* PBXTargetDependency */,
+			);
+			name = "Practices-Of-A-Guide-To-iOS-AnimationTests";
+			productName = "Practices-Of-A-Guide-To-iOS-AnimationTests";
+			productReference = CF65CE601C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF65CE6A1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF65CE7A1C1ACE9F008D3DDD /* Build configuration list for PBXNativeTarget "Practices-Of-A-Guide-To-iOS-AnimationUITests" */;
+			buildPhases = (
+				CF65CE671C1ACE9F008D3DDD /* Sources */,
+				CF65CE681C1ACE9F008D3DDD /* Frameworks */,
+				CF65CE691C1ACE9F008D3DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF65CE6D1C1ACE9F008D3DDD /* PBXTargetDependency */,
+			);
+			name = "Practices-Of-A-Guide-To-iOS-AnimationUITests";
+			productName = "Practices-Of-A-Guide-To-iOS-AnimationUITests";
+			productReference = CF65CE6B1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF65CE3F1C1ACE9F008D3DDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LT;
+				TargetAttributes = {
+					CF65CE461C1ACE9F008D3DDD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CF65CE5F1C1ACE9F008D3DDD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CF65CE461C1ACE9F008D3DDD;
+					};
+					CF65CE6A1C1ACE9F008D3DDD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CF65CE461C1ACE9F008D3DDD;
+					};
+				};
+			};
+			buildConfigurationList = CF65CE421C1ACE9F008D3DDD /* Build configuration list for PBXProject "Practices-Of-A-Guide-To-iOS-Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF65CE3E1C1ACE9F008D3DDD;
+			productRefGroup = CF65CE481C1ACE9F008D3DDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF65CE461C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation */,
+				CF65CE5F1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationTests */,
+				CF65CE6A1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF65CE451C1ACE9F008D3DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65CE5A1C1ACE9F008D3DDD /* LaunchScreen.storyboard in Resources */,
+				CF65CE571C1ACE9F008D3DDD /* Assets.xcassets in Resources */,
+				CF65CE551C1ACE9F008D3DDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65CE5E1C1ACE9F008D3DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65CE691C1ACE9F008D3DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF65CE431C1ACE9F008D3DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDF7ADF1C1E7CBE00E248A0 /* GooeySlideMenu.m in Sources */,
+				CF65CE951C1BCB5A008D3DDD /* CircleLayer.m in Sources */,
+				CFDF7AD81C1E72B900E248A0 /* CurveDemoView.m in Sources */,
+				CFDF7ADC1C1E796900E248A0 /* GooeySlideMenuDemoView.m in Sources */,
+				CF65CE7F1C1AD0D7008D3DDD /* LTUtilPackage.m in Sources */,
+				CF65CE521C1ACE9F008D3DDD /* ViewController.m in Sources */,
+				CF65CE4F1C1ACE9F008D3DDD /* AppDelegate.m in Sources */,
+				CF65CE8D1C1BC91A008D3DDD /* ParentView.m in Sources */,
+				CF65CE861C1AEDDC008D3DDD /* LTDisplayVC.m in Sources */,
+				CF65CE911C1BCABC008D3DDD /* CircleDemoView.m in Sources */,
+				CF65CE831C1ADF76008D3DDD /* UIImage+Custom.m in Sources */,
+				CFDF7AE21C1E7CD300E248A0 /* SlideMenuButton.m in Sources */,
+				CF65CE4C1C1ACE9F008D3DDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65CE5C1C1ACE9F008D3DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65CE651C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65CE671C1ACE9F008D3DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65CE701C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF65CE621C1ACE9F008D3DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF65CE461C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation */;
+			targetProxy = CF65CE611C1ACE9F008D3DDD /* PBXContainerItemProxy */;
+		};
+		CF65CE6D1C1ACE9F008D3DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF65CE461C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation */;
+			targetProxy = CF65CE6C1C1ACE9F008D3DDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF65CE531C1ACE9F008D3DDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF65CE541C1ACE9F008D3DDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF65CE581C1ACE9F008D3DDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF65CE591C1ACE9F008D3DDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF65CE721C1ACE9F008D3DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF65CE731C1ACE9F008D3DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF65CE751C1ACE9F008D3DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "Practices-Of-A-Guide-To-iOS-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LT.Practices-Of-A-Guide-To-iOS-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF65CE761C1ACE9F008D3DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "Practices-Of-A-Guide-To-iOS-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LT.Practices-Of-A-Guide-To-iOS-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF65CE781C1ACE9F008D3DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practices-Of-A-Guide-To-iOS-AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LT.Practices-Of-A-Guide-To-iOS-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practices-Of-A-Guide-To-iOS-Animation.app/Practices-Of-A-Guide-To-iOS-Animation";
+			};
+			name = Debug;
+		};
+		CF65CE791C1ACE9F008D3DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practices-Of-A-Guide-To-iOS-AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LT.Practices-Of-A-Guide-To-iOS-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practices-Of-A-Guide-To-iOS-Animation.app/Practices-Of-A-Guide-To-iOS-Animation";
+			};
+			name = Release;
+		};
+		CF65CE7B1C1ACE9F008D3DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practices-Of-A-Guide-To-iOS-AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LT.Practices-Of-A-Guide-To-iOS-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practices-Of-A-Guide-To-iOS-Animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF65CE7C1C1ACE9F008D3DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practices-Of-A-Guide-To-iOS-AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LT.Practices-Of-A-Guide-To-iOS-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practices-Of-A-Guide-To-iOS-Animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF65CE421C1ACE9F008D3DDD /* Build configuration list for PBXProject "Practices-Of-A-Guide-To-iOS-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65CE721C1ACE9F008D3DDD /* Debug */,
+				CF65CE731C1ACE9F008D3DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF65CE741C1ACE9F008D3DDD /* Build configuration list for PBXNativeTarget "Practices-Of-A-Guide-To-iOS-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65CE751C1ACE9F008D3DDD /* Debug */,
+				CF65CE761C1ACE9F008D3DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF65CE771C1ACE9F008D3DDD /* Build configuration list for PBXNativeTarget "Practices-Of-A-Guide-To-iOS-AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65CE781C1ACE9F008D3DDD /* Debug */,
+				CF65CE791C1ACE9F008D3DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF65CE7A1C1ACE9F008D3DDD /* Build configuration list for PBXNativeTarget "Practices-Of-A-Guide-To-iOS-AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65CE7B1C1ACE9F008D3DDD /* Debug */,
+				CF65CE7C1C1ACE9F008D3DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF65CE3F1C1ACE9F008D3DDD /* Project object */;
+}
