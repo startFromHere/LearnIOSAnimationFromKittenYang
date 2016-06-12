@@ -23,8 +23,27 @@
     
     // Do any additional setup after loading the view, typically from a nib.
     self.title=@"DEMO列表";
-    LTUtilPackage *util=[[LTUtilPackage alloc]init];
-    themes=[util.themes copy];
+//    LTUtilPackage *util=[[LTUtilPackage alloc]init];
+//    themes=[util.themes copy];
+    themes = @[
+              @"CircleDemoView",
+              @"CurveDemoView",
+              @"DownloadButtonDemoView",
+              @"DynamicActionBlockDemoView",
+              @"GooeySlideMenuDemoView",
+              @"InteractiveCardDemoView",
+              @"JumpStarDemoView",
+              @"BubbleTransitionView",
+              @"GooeyMenuDemoView",
+              @"LoadingHUDView",
+              @"PingTransitionDemoView",
+              @"MCFireworksButtonDemoView",
+              @"SnowEffectsDemoView",
+              @"SplashAnimationDemoView",
+              @"tvOSCardAnimationDemoView",
+              @"UIDynamicsDemoView"
+              ];
+
     [self configTableView];
 }
 
@@ -33,6 +52,7 @@
     _tableView.delegate=self;
     _tableView.dataSource=self;
     _tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
+    [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     [self.view addSubview:_tableView];
 }
 

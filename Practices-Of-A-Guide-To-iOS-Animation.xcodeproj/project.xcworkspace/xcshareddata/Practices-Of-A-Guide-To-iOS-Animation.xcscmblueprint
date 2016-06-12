@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "549CF5E159C0D6190C0641155299D1A1A3A65609",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "549CF5E159C0D6190C0641155299D1A1A3A65609" : 0,
+    "D19B840C930FD0B358B6F8E5BDFA4354B09241E6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25D387EB-1949-44D9-92DE-9B99BFFEF68F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "549CF5E159C0D6190C0641155299D1A1A3A65609" : "Practices-Of-A-Guide-To-iOS-Animation\/",
+    "D19B840C930FD0B358B6F8E5BDFA4354B09241E6" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Practices-Of-A-Guide-To-iOS-Animation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Practices-Of-A-Guide-To-iOS-Animation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/startFromHere\/LearnIOSAnimationFromKittenYang.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "549CF5E159C0D6190C0641155299D1A1A3A65609"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/startFromHere\/Practices.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D19B840C930FD0B358B6F8E5BDFA4354B09241E6"
+    }
+  ]
+}

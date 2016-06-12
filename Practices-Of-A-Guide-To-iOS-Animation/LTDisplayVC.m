@@ -7,31 +7,62 @@
 //
 
 #import "LTDisplayVC.h"
-#import "CircleDemoView.h"
-@implementation LTDisplayVC
+#import "ParentView.h"
+#import "PingTransition/PingTransitionDemoView.h"
+#import "PingTransition/CustomTransition.h"
+@implementation LTDisplayVC{
+    ParentView *demoView;
+}
 
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
-    
     [self configWithDemoName:self.receivedDemoName];
+}
+
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    self.navigationController.delegate = self;
 }
 
 -(void)configWithDemoName:(NSString *)name{
     //CircleDemoView *demoView=[CircleDemoView demoView];
     self.title = name;
-    ParentView *demoView = [NSClassFromString(name) demoView];
+    demoView = [NSClassFromString(name) demoView];
     demoView.delegate = self;
-    if (demoView == nil) {
-        UIAlertController *alvc=[UIAlertController alertControllerWithTitle:nil message:@"还没开始" preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *cancleAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
-        [alvc addAction:cancleAction];
-        [self presentViewController:alvc animated:YES completion:nil];
-        return;
-    }
+    self.displayVCdelegate = demoView;
     
-    [self.view addSubview:demoView];
+    if ([@"PingTransitionDemoView" isEqualToString:name]) {
+        PingTransitionDemoView *PTView = (PingTransitionDemoView *)demoView;
+        self.view = PTView;
+    } else{
+        if (demoView == nil) {
+            UIAlertController *alvc=[UIAlertController alertControllerWithTitle:nil message:@"还没开始" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *cancleAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
+            [alvc addAction:cancleAction];
+            [self presentViewController:alvc animated:YES completion:nil];
+            return;
+        }
+        [self.view addSubview:demoView];
+    }
 }
 
+-(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                 animationControllerForOperation:(UINavigationControllerOperation)operation
+                                              fromViewController:(UIViewController *)fromVC
+                                                toViewController:(UIViewController *)toVC{
+    if (operation == UINavigationControllerOperationPush) {
+        CustomTransition *customTrans = [CustomTransition new];
+        return customTrans;
+    } else {
+        return nil;
+    }
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    NSNotificationCenter *noticeCenter = [NSNotificationCenter defaultCenter];
+    [noticeCenter postNotificationName:@"disPlayVCWillPop" object:nil];
+}
 
 @end

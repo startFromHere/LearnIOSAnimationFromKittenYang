@@ -6,10 +6,17 @@
 //  Copyright © 2015 LT. All rights reserved.
 //
 
+
+
 #import <UIKit/UIKit.h>
 
-@interface LTDisplayVC : UIViewController
+@protocol DisPlayVCDelegate <NSObject>
+-(void)displayVCWillPop;
+@end
+
+@interface LTDisplayVC : UIViewController<UINavigationControllerDelegate>
 
 @property (nonatomic,strong)NSString *receivedDemoName;
+@property (nonatomic,weak)id<DisPlayVCDelegate> displayVCdelegate;
 
 @end

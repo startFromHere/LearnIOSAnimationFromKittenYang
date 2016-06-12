@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0E79801CFC6BEE00D83080 /* MCFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0E797F1CFC6BEE00D83080 /* MCFireworksView.m */; };
+		CF3841021D0D16C200811F7A /* SnowEffectsDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3841011D0D16C200811F7A /* SnowEffectsDemoView.m */; };
+		CF3841061D0D1C9B00811F7A /* GooeyMenuDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3841051D0D1C9B00811F7A /* GooeyMenuDemoView.m */; };
+		CF38410A1D0D1D0800811F7A /* KYGooeyMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3841091D0D1D0800811F7A /* KYGooeyMenu.m */; };
+		CF38410D1D0D1D2800811F7A /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38410C1D0D1D2800811F7A /* Menu.m */; };
+		CF3841101D0D1D4E00811F7A /* MenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38410F1D0D1D4E00811F7A /* MenuLayer.m */; };
+		CF3841131D0D1D8500811F7A /* KYSpringLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3841121D0D1D8500811F7A /* KYSpringLayerAnimation.m */; };
+		CF3841161D0D1D9C00811F7A /* Cross.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3841151D0D1D9C00811F7A /* Cross.m */; };
+		CF38411D1D0D64E000811F7A /* KYBubbleInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38411A1D0D64E000811F7A /* KYBubbleInteractiveTransition.m */; };
+		CF38411E1D0D64E000811F7A /* KYBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38411C1D0D64E000811F7A /* KYBubbleTransition.m */; };
+		CF3841211D0D657600811F7A /* BubbleTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3841201D0D657600811F7A /* BubbleTransitionView.m */; };
+		CF3A69C31D04186900F4013A /* JumpStarDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3A69C21D04186900F4013A /* JumpStarDemoView.m */; };
+		CF496F0E1CF7075400FADEA7 /* LoadingHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF496F0D1CF7075400FADEA7 /* LoadingHUDView.m */; };
+		CF4B0D731CF9E34900045A42 /* MCFireworksButtonDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4B0D721CF9E34900045A42 /* MCFireworksButtonDemoView.m */; };
+		CF4B0D761CF9E3B800045A42 /* MCFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4B0D751CF9E3B800045A42 /* MCFireworksButton.m */; };
+		CF56601D1D067BF7007FB8C2 /* DownloadButtonDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF56601C1D067BF7007FB8C2 /* DownloadButtonDemoView.m */; };
+		CF5660201D067C51007FB8C2 /* DownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF56601F1D067C51007FB8C2 /* DownButton.m */; };
 		CF65CE4C1C1ACE9F008D3DDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE4B1C1ACE9F008D3DDD /* main.m */; };
 		CF65CE4F1C1ACE9F008D3DDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE4E1C1ACE9F008D3DDD /* AppDelegate.m */; };
 		CF65CE521C1ACE9F008D3DDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE511C1ACE9F008D3DDD /* ViewController.m */; };
@@ -15,16 +32,30 @@
 		CF65CE5A1C1ACE9F008D3DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65CE581C1ACE9F008D3DDD /* LaunchScreen.storyboard */; };
 		CF65CE651C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE641C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationTests.m */; };
 		CF65CE701C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE6F1C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m */; };
-		CF65CE7F1C1AD0D7008D3DDD /* LTUtilPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE7E1C1AD0D7008D3DDD /* LTUtilPackage.m */; };
-		CF65CE831C1ADF76008D3DDD /* UIImage+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE821C1ADF76008D3DDD /* UIImage+Custom.m */; };
 		CF65CE861C1AEDDC008D3DDD /* LTDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE851C1AEDDC008D3DDD /* LTDisplayVC.m */; };
 		CF65CE8D1C1BC91A008D3DDD /* ParentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE8C1C1BC91A008D3DDD /* ParentView.m */; };
-		CF65CE911C1BCABC008D3DDD /* CircleDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE901C1BCABC008D3DDD /* CircleDemoView.m */; };
-		CF65CE951C1BCB5A008D3DDD /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65CE941C1BCB5A008D3DDD /* CircleLayer.m */; };
-		CFDF7AD81C1E72B900E248A0 /* CurveDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7AD71C1E72B900E248A0 /* CurveDemoView.m */; };
-		CFDF7ADC1C1E796900E248A0 /* GooeySlideMenuDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7ADB1C1E796900E248A0 /* GooeySlideMenuDemoView.m */; };
-		CFDF7ADF1C1E7CBE00E248A0 /* GooeySlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7ADE1C1E7CBE00E248A0 /* GooeySlideMenu.m */; };
-		CFDF7AE21C1E7CD300E248A0 /* SlideMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDF7AE11C1E7CD300E248A0 /* SlideMenuButton.m */; };
+		CF6836091CF7397200D41814 /* PingTransitionDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6836081CF7397200D41814 /* PingTransitionDemoView.m */; };
+		CF68360C1CF73D9700D41814 /* CustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF68360B1CF73D9700D41814 /* CustomTransition.m */; };
+		CF6836141CF7664A00D41814 /* CustomConvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6836131CF7664A00D41814 /* CustomConvertTransition.m */; };
+		CF6836161CF7E83700D41814 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6836151CF7E83700D41814 /* View.xib */; };
+		CF68361B1CF80CD000D41814 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF68361A1CF80CD000D41814 /* SecondViewController.m */; };
+		CF6836221CF83F0B00D41814 /* InteractiveCardDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6836211CF83F0B00D41814 /* InteractiveCardDemoView.m */; };
+		CF8019EE1D06CF8D0009317B /* DynamicActionBlockDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8019ED1D06CF8D0009317B /* DynamicActionBlockDemoView.m */; };
+		CFA52EB11D05190100C65D2D /* UIImage+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA52EB01D05190100C65D2D /* UIImage+Custom.m */; };
+		CFA52EB41D05197F00C65D2D /* LTUtilPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA52EB31D05197F00C65D2D /* LTUtilPackage.m */; };
+		CFC302F01C2694310071959A /* CircleDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302E01C2694310071959A /* CircleDemoView.m */; };
+		CFC302F11C2694310071959A /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302E21C2694310071959A /* CircleLayer.m */; };
+		CFC302F21C2694310071959A /* CurveDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302E51C2694310071959A /* CurveDemoView.m */; };
+		CFC302F31C2694310071959A /* GooeySlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302E81C2694310071959A /* GooeySlideMenu.m */; };
+		CFC302F41C2694310071959A /* GooeySlideMenuDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302EA1C2694310071959A /* GooeySlideMenuDemoView.m */; };
+		CFC302F51C2694310071959A /* SlideMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302EC1C2694310071959A /* SlideMenuButton.m */; };
+		CFC302F61C2694310071959A /* SplashAnimationDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302EF1C2694310071959A /* SplashAnimationDemoView.m */; };
+		CFC302FD1C26956A0071959A /* KYPullToCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302FC1C26956A0071959A /* KYPullToCurveView.m */; };
+		CFC303001C269AC70071959A /* KYPullToCurveView_footer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC302FF1C269AC70071959A /* KYPullToCurveView_footer.m */; };
+		CFC303061C269DAF0071959A /* LabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC303051C269DAF0071959A /* LabelView.m */; };
+		CFC303091C269FBD0071959A /* UIView+Convenient.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC303081C269FBD0071959A /* UIView+Convenient.m */; };
+		CFC3030F1C27B6980071959A /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3030E1C27B6980071959A /* CurveView.m */; };
+		CFC303151C27B7B90071959A /* CurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC303141C27B7B90071959A /* CurveLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +76,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0E797E1CFC6BEE00D83080 /* MCFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCFireworksView.h; path = MCFireworksButtonDemo/MCFireworksView.h; sourceTree = "<group>"; };
+		CF0E797F1CFC6BEE00D83080 /* MCFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCFireworksView.m; path = MCFireworksButtonDemo/MCFireworksView.m; sourceTree = "<group>"; };
+		CF3841001D0D16C200811F7A /* SnowEffectsDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowEffectsDemoView.h; sourceTree = "<group>"; };
+		CF3841011D0D16C200811F7A /* SnowEffectsDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowEffectsDemoView.m; sourceTree = "<group>"; };
+		CF3841041D0D1C9B00811F7A /* GooeyMenuDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeyMenuDemoView.h; sourceTree = "<group>"; };
+		CF3841051D0D1C9B00811F7A /* GooeyMenuDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeyMenuDemoView.m; sourceTree = "<group>"; };
+		CF3841081D0D1D0800811F7A /* KYGooeyMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYGooeyMenu.h; sourceTree = "<group>"; };
+		CF3841091D0D1D0800811F7A /* KYGooeyMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYGooeyMenu.m; sourceTree = "<group>"; };
+		CF38410B1D0D1D2800811F7A /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		CF38410C1D0D1D2800811F7A /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		CF38410E1D0D1D4E00811F7A /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
+		CF38410F1D0D1D4E00811F7A /* MenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLayer.m; sourceTree = "<group>"; };
+		CF3841111D0D1D8500811F7A /* KYSpringLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSpringLayerAnimation.h; sourceTree = "<group>"; };
+		CF3841121D0D1D8500811F7A /* KYSpringLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSpringLayerAnimation.m; sourceTree = "<group>"; };
+		CF3841141D0D1D9C00811F7A /* Cross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cross.h; sourceTree = "<group>"; };
+		CF3841151D0D1D9C00811F7A /* Cross.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cross.m; sourceTree = "<group>"; };
+		CF3841191D0D64E000811F7A /* KYBubbleInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYBubbleInteractiveTransition.h; sourceTree = "<group>"; };
+		CF38411A1D0D64E000811F7A /* KYBubbleInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYBubbleInteractiveTransition.m; sourceTree = "<group>"; };
+		CF38411B1D0D64E000811F7A /* KYBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYBubbleTransition.h; sourceTree = "<group>"; };
+		CF38411C1D0D64E000811F7A /* KYBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYBubbleTransition.m; sourceTree = "<group>"; };
+		CF38411F1D0D657600811F7A /* BubbleTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleTransitionView.h; sourceTree = "<group>"; };
+		CF3841201D0D657600811F7A /* BubbleTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleTransitionView.m; sourceTree = "<group>"; };
+		CF3A69C11D04186900F4013A /* JumpStarDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpStarDemoView.h; sourceTree = "<group>"; };
+		CF3A69C21D04186900F4013A /* JumpStarDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpStarDemoView.m; sourceTree = "<group>"; };
+		CF496F0C1CF7075400FADEA7 /* LoadingHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingHUDView.h; path = LoadingHUD/LoadingHUDView.h; sourceTree = "<group>"; };
+		CF496F0D1CF7075400FADEA7 /* LoadingHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingHUDView.m; path = LoadingHUD/LoadingHUDView.m; sourceTree = "<group>"; };
+		CF4B0D711CF9E34900045A42 /* MCFireworksButtonDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCFireworksButtonDemoView.h; path = MCFireworksButtonDemo/MCFireworksButtonDemoView.h; sourceTree = "<group>"; };
+		CF4B0D721CF9E34900045A42 /* MCFireworksButtonDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCFireworksButtonDemoView.m; path = MCFireworksButtonDemo/MCFireworksButtonDemoView.m; sourceTree = "<group>"; };
+		CF4B0D741CF9E3B800045A42 /* MCFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFireworksButton.h; sourceTree = "<group>"; };
+		CF4B0D751CF9E3B800045A42 /* MCFireworksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFireworksButton.m; sourceTree = "<group>"; };
+		CF56601B1D067BF7007FB8C2 /* DownloadButtonDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadButtonDemoView.h; sourceTree = "<group>"; };
+		CF56601C1D067BF7007FB8C2 /* DownloadButtonDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadButtonDemoView.m; sourceTree = "<group>"; };
+		CF56601E1D067C51007FB8C2 /* DownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownButton.h; sourceTree = "<group>"; };
+		CF56601F1D067C51007FB8C2 /* DownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownButton.m; sourceTree = "<group>"; };
 		CF65CE471C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practices-Of-A-Guide-To-iOS-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF65CE4B1C1ACE9F008D3DDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF65CE4D1C1ACE9F008D3DDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,27 +126,54 @@
 		CF65CE6B1C1ACE9F008D3DDD /* Practices-Of-A-Guide-To-iOS-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practices-Of-A-Guide-To-iOS-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF65CE6F1C1ACE9F008D3DDD /* Practices_Of_A_Guide_To_iOS_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practices_Of_A_Guide_To_iOS_AnimationUITests.m; sourceTree = "<group>"; };
 		CF65CE711C1ACE9F008D3DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF65CE7D1C1AD0D7008D3DDD /* LTUtilPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTUtilPackage.h; path = "Practices-Of-A-Guide-To-iOS-Animation/LTUtilPackage.h"; sourceTree = "<group>"; };
-		CF65CE7E1C1AD0D7008D3DDD /* LTUtilPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTUtilPackage.m; path = "Practices-Of-A-Guide-To-iOS-Animation/LTUtilPackage.m"; sourceTree = "<group>"; };
-		CF65CE811C1ADF76008D3DDD /* UIImage+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Custom.h"; sourceTree = "<group>"; };
-		CF65CE821C1ADF76008D3DDD /* UIImage+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Custom.m"; sourceTree = "<group>"; };
 		CF65CE841C1AEDDC008D3DDD /* LTDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTDisplayVC.h; sourceTree = "<group>"; };
 		CF65CE851C1AEDDC008D3DDD /* LTDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTDisplayVC.m; sourceTree = "<group>"; };
 		CF65CE8B1C1BC91A008D3DDD /* ParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentView.h; sourceTree = "<group>"; };
 		CF65CE8C1C1BC91A008D3DDD /* ParentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentView.m; sourceTree = "<group>"; };
 		CF65CE8E1C1BCA14008D3DDD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		CF65CE8F1C1BCABC008D3DDD /* CircleDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleDemoView.h; sourceTree = "<group>"; };
-		CF65CE901C1BCABC008D3DDD /* CircleDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDemoView.m; sourceTree = "<group>"; };
-		CF65CE931C1BCB5A008D3DDD /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
-		CF65CE941C1BCB5A008D3DDD /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
-		CFDF7AD61C1E72B900E248A0 /* CurveDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveDemoView.h; sourceTree = "<group>"; };
-		CFDF7AD71C1E72B900E248A0 /* CurveDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveDemoView.m; sourceTree = "<group>"; };
-		CFDF7ADA1C1E796900E248A0 /* GooeySlideMenuDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenuDemoView.h; sourceTree = "<group>"; };
-		CFDF7ADB1C1E796900E248A0 /* GooeySlideMenuDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenuDemoView.m; sourceTree = "<group>"; };
-		CFDF7ADD1C1E7CBE00E248A0 /* GooeySlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenu.h; sourceTree = "<group>"; };
-		CFDF7ADE1C1E7CBE00E248A0 /* GooeySlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenu.m; sourceTree = "<group>"; };
-		CFDF7AE01C1E7CD300E248A0 /* SlideMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuButton.h; sourceTree = "<group>"; };
-		CFDF7AE11C1E7CD300E248A0 /* SlideMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuButton.m; sourceTree = "<group>"; };
+		CF6836071CF7397200D41814 /* PingTransitionDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingTransitionDemoView.h; path = PingTransition/PingTransitionDemoView.h; sourceTree = "<group>"; };
+		CF6836081CF7397200D41814 /* PingTransitionDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingTransitionDemoView.m; path = PingTransition/PingTransitionDemoView.m; sourceTree = "<group>"; };
+		CF68360A1CF73D9700D41814 /* CustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTransition.h; path = PingTransition/CustomTransition.h; sourceTree = "<group>"; };
+		CF68360B1CF73D9700D41814 /* CustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTransition.m; path = PingTransition/CustomTransition.m; sourceTree = "<group>"; };
+		CF6836121CF7664A00D41814 /* CustomConvertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomConvertTransition.h; sourceTree = "<group>"; };
+		CF6836131CF7664A00D41814 /* CustomConvertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomConvertTransition.m; sourceTree = "<group>"; };
+		CF6836151CF7E83700D41814 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		CF6836191CF80CD000D41814 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = PingTransition/SecondViewController.h; sourceTree = "<group>"; };
+		CF68361A1CF80CD000D41814 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = PingTransition/SecondViewController.m; sourceTree = "<group>"; };
+		CF6836201CF83F0B00D41814 /* InteractiveCardDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveCardDemoView.h; sourceTree = "<group>"; };
+		CF6836211CF83F0B00D41814 /* InteractiveCardDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveCardDemoView.m; sourceTree = "<group>"; };
+		CF8019EC1D06CF8D0009317B /* DynamicActionBlockDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicActionBlockDemoView.h; sourceTree = "<group>"; };
+		CF8019ED1D06CF8D0009317B /* DynamicActionBlockDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicActionBlockDemoView.m; sourceTree = "<group>"; };
+		CFA52EAF1D05190100C65D2D /* UIImage+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Custom.h"; path = "Practices-Of-A-Guide-To-iOS-Animation/Utils/UIImage+Custom.h"; sourceTree = "<group>"; };
+		CFA52EB01D05190100C65D2D /* UIImage+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Custom.m"; path = "Practices-Of-A-Guide-To-iOS-Animation/Utils/UIImage+Custom.m"; sourceTree = "<group>"; };
+		CFA52EB21D05197F00C65D2D /* LTUtilPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTUtilPackage.h; path = "Practices-Of-A-Guide-To-iOS-Animation/Utils/LTUtilPackage.h"; sourceTree = "<group>"; };
+		CFA52EB31D05197F00C65D2D /* LTUtilPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTUtilPackage.m; path = "Practices-Of-A-Guide-To-iOS-Animation/Utils/LTUtilPackage.m"; sourceTree = "<group>"; };
+		CFC302DF1C2694310071959A /* CircleDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleDemoView.h; sourceTree = "<group>"; };
+		CFC302E01C2694310071959A /* CircleDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDemoView.m; sourceTree = "<group>"; };
+		CFC302E11C2694310071959A /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		CFC302E21C2694310071959A /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		CFC302E41C2694310071959A /* CurveDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveDemoView.h; sourceTree = "<group>"; };
+		CFC302E51C2694310071959A /* CurveDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveDemoView.m; sourceTree = "<group>"; };
+		CFC302E71C2694310071959A /* GooeySlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenu.h; sourceTree = "<group>"; };
+		CFC302E81C2694310071959A /* GooeySlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenu.m; sourceTree = "<group>"; };
+		CFC302E91C2694310071959A /* GooeySlideMenuDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenuDemoView.h; sourceTree = "<group>"; };
+		CFC302EA1C2694310071959A /* GooeySlideMenuDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenuDemoView.m; sourceTree = "<group>"; };
+		CFC302EB1C2694310071959A /* SlideMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuButton.h; sourceTree = "<group>"; };
+		CFC302EC1C2694310071959A /* SlideMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuButton.m; sourceTree = "<group>"; };
+		CFC302EE1C2694310071959A /* SplashAnimationDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashAnimationDemoView.h; sourceTree = "<group>"; };
+		CFC302EF1C2694310071959A /* SplashAnimationDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashAnimationDemoView.m; sourceTree = "<group>"; };
+		CFC302FB1C26956A0071959A /* KYPullToCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPullToCurveView.h; sourceTree = "<group>"; };
+		CFC302FC1C26956A0071959A /* KYPullToCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPullToCurveView.m; sourceTree = "<group>"; };
+		CFC302FE1C269AC70071959A /* KYPullToCurveView_footer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPullToCurveView_footer.h; sourceTree = "<group>"; };
+		CFC302FF1C269AC70071959A /* KYPullToCurveView_footer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPullToCurveView_footer.m; sourceTree = "<group>"; };
+		CFC303041C269DAF0071959A /* LabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelView.h; sourceTree = "<group>"; };
+		CFC303051C269DAF0071959A /* LabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelView.m; sourceTree = "<group>"; };
+		CFC303071C269FBD0071959A /* UIView+Convenient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Convenient.h"; sourceTree = "<group>"; };
+		CFC303081C269FBD0071959A /* UIView+Convenient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Convenient.m"; sourceTree = "<group>"; };
+		CFC3030D1C27B6980071959A /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		CFC3030E1C27B6980071959A /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+		CFC303131C27B7B90071959A /* CurveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveLayer.h; sourceTree = "<group>"; };
+		CFC303141C27B7B90071959A /* CurveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +201,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0771B01CF71D2F00580B94 /* PingTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CF6836071CF7397200D41814 /* PingTransitionDemoView.h */,
+				CF6836081CF7397200D41814 /* PingTransitionDemoView.m */,
+				CF68360A1CF73D9700D41814 /* CustomTransition.h */,
+				CF68360B1CF73D9700D41814 /* CustomTransition.m */,
+				CF6836121CF7664A00D41814 /* CustomConvertTransition.h */,
+				CF6836131CF7664A00D41814 /* CustomConvertTransition.m */,
+				CF6836191CF80CD000D41814 /* SecondViewController.h */,
+				CF68361A1CF80CD000D41814 /* SecondViewController.m */,
+				CF6836151CF7E83700D41814 /* View.xib */,
+			);
+			name = PingTransition;
+			sourceTree = "<group>";
+		};
+		CF3840FF1D0D169D00811F7A /* SnowEffectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF3841001D0D16C200811F7A /* SnowEffectsDemoView.h */,
+				CF3841011D0D16C200811F7A /* SnowEffectsDemoView.m */,
+			);
+			path = SnowEffectDemo;
+			sourceTree = "<group>";
+		};
+		CF3841031D0D1C5F00811F7A /* KYCooeyMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF3841041D0D1C9B00811F7A /* GooeyMenuDemoView.h */,
+				CF3841051D0D1C9B00811F7A /* GooeyMenuDemoView.m */,
+				CF3841071D0D1CB500811F7A /* Classes */,
+			);
+			name = KYCooeyMenu;
+			path = KYCooeyMenuView;
+			sourceTree = "<group>";
+		};
+		CF3841071D0D1CB500811F7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF3841081D0D1D0800811F7A /* KYGooeyMenu.h */,
+				CF3841091D0D1D0800811F7A /* KYGooeyMenu.m */,
+				CF38410B1D0D1D2800811F7A /* Menu.h */,
+				CF38410C1D0D1D2800811F7A /* Menu.m */,
+				CF38410E1D0D1D4E00811F7A /* MenuLayer.h */,
+				CF38410F1D0D1D4E00811F7A /* MenuLayer.m */,
+				CF3841111D0D1D8500811F7A /* KYSpringLayerAnimation.h */,
+				CF3841121D0D1D8500811F7A /* KYSpringLayerAnimation.m */,
+				CF3841141D0D1D9C00811F7A /* Cross.h */,
+				CF3841151D0D1D9C00811F7A /* Cross.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CF3841181D0D64C800811F7A /* KYBubbleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CF38411F1D0D657600811F7A /* BubbleTransitionView.h */,
+				CF3841201D0D657600811F7A /* BubbleTransitionView.m */,
+				CF3841191D0D64E000811F7A /* KYBubbleInteractiveTransition.h */,
+				CF38411A1D0D64E000811F7A /* KYBubbleInteractiveTransition.m */,
+				CF38411B1D0D64E000811F7A /* KYBubbleTransition.h */,
+				CF38411C1D0D64E000811F7A /* KYBubbleTransition.m */,
+			);
+			path = KYBubbleTransition;
+			sourceTree = "<group>";
+		};
+		CF3A69C01D04182F00F4013A /* JumpStartDemoView */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A69C11D04186900F4013A /* JumpStarDemoView.h */,
+				CF3A69C21D04186900F4013A /* JumpStarDemoView.m */,
+			);
+			path = JumpStartDemoView;
+			sourceTree = "<group>";
+		};
+		CF496F0B1CF706BD00FADEA7 /* LoadingHud */ = {
+			isa = PBXGroup;
+			children = (
+				CF496F0C1CF7075400FADEA7 /* LoadingHUDView.h */,
+				CF496F0D1CF7075400FADEA7 /* LoadingHUDView.m */,
+			);
+			name = LoadingHud;
+			sourceTree = "<group>";
+		};
+		CF4B0D6E1CF9E29600045A42 /* MCFireworksButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B0D711CF9E34900045A42 /* MCFireworksButtonDemoView.h */,
+				CF4B0D721CF9E34900045A42 /* MCFireworksButtonDemoView.m */,
+				CF4B0D741CF9E3B800045A42 /* MCFireworksButton.h */,
+				CF4B0D751CF9E3B800045A42 /* MCFireworksButton.m */,
+				CF0E797E1CFC6BEE00D83080 /* MCFireworksView.h */,
+				CF0E797F1CFC6BEE00D83080 /* MCFireworksView.m */,
+			);
+			name = MCFireworksButtonDemo;
+			sourceTree = "<group>";
+		};
+		CF56601A1D067BCF007FB8C2 /* DownLoadButton */ = {
+			isa = PBXGroup;
+			children = (
+				CF56601B1D067BF7007FB8C2 /* DownloadButtonDemoView.h */,
+				CF56601C1D067BF7007FB8C2 /* DownloadButtonDemoView.m */,
+				CF56601E1D067C51007FB8C2 /* DownButton.h */,
+				CF56601F1D067C51007FB8C2 /* DownButton.m */,
+			);
+			path = DownLoadButton;
+			sourceTree = "<group>";
+		};
 		CF65CE3E1C1ACE9F008D3DDD = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +341,6 @@
 				CF65CE5B1C1ACE9F008D3DDD /* Info.plist */,
 				CFDF7AD51C1E722200E248A0 /* MainVC */,
 				CF65CE801C1AD0E8008D3DDD /* Utilities */,
-				CF65CE871C1AEF80008D3DDD /* AnimationViews */,
 				CF65CE4A1C1ACE9F008D3DDD /* Supporting Files */,
 			);
 			path = "Practices-Of-A-Guide-To-iOS-Animation";
@@ -175,10 +374,10 @@
 		CF65CE801C1AD0E8008D3DDD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				CF65CE7D1C1AD0D7008D3DDD /* LTUtilPackage.h */,
-				CF65CE7E1C1AD0D7008D3DDD /* LTUtilPackage.m */,
-				CF65CE811C1ADF76008D3DDD /* UIImage+Custom.h */,
-				CF65CE821C1ADF76008D3DDD /* UIImage+Custom.m */,
+				CFA52EAF1D05190100C65D2D /* UIImage+Custom.h */,
+				CFA52EB01D05190100C65D2D /* UIImage+Custom.m */,
+				CFA52EB21D05197F00C65D2D /* LTUtilPackage.h */,
+				CFA52EB31D05197F00C65D2D /* LTUtilPackage.m */,
 			);
 			name = Utilities;
 			path = ..;
@@ -189,36 +388,132 @@
 			children = (
 				CF65CE8B1C1BC91A008D3DDD /* ParentView.h */,
 				CF65CE8C1C1BC91A008D3DDD /* ParentView.m */,
-				CF65CE921C1BCB1F008D3DDD /* CircleDemo */,
-				CFDF7AD41C1E71E800E248A0 /* CurveDemo */,
-				CFDF7AD91C1E78B400E248A0 /* GooeySlideMenuDemo */,
 			);
 			name = AnimationViews;
 			sourceTree = "<group>";
 		};
-		CF65CE921C1BCB1F008D3DDD /* CircleDemo */ = {
+		CF68361F1CF83EC100D41814 /* InteractiveCardDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CF65CE8F1C1BCABC008D3DDD /* CircleDemoView.h */,
-				CF65CE901C1BCABC008D3DDD /* CircleDemoView.m */,
-				CF65CE931C1BCB5A008D3DDD /* CircleLayer.h */,
-				CF65CE941C1BCB5A008D3DDD /* CircleLayer.m */,
+				CF6836201CF83F0B00D41814 /* InteractiveCardDemoView.h */,
+				CF6836211CF83F0B00D41814 /* InteractiveCardDemoView.m */,
 			);
-			name = CircleDemo;
+			name = InteractiveCardDemo;
 			sourceTree = "<group>";
 		};
-		CFDF7AD41C1E71E800E248A0 /* CurveDemo */ = {
+		CF8019EB1D06CF670009317B /* DynamicActionBlockDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CFDF7AD61C1E72B900E248A0 /* CurveDemoView.h */,
-				CFDF7AD71C1E72B900E248A0 /* CurveDemoView.m */,
+				CF8019EC1D06CF8D0009317B /* DynamicActionBlockDemoView.h */,
+				CF8019ED1D06CF8D0009317B /* DynamicActionBlockDemoView.m */,
 			);
-			name = CurveDemo;
+			path = DynamicActionBlockDemo;
+			sourceTree = "<group>";
+		};
+		CFC302DE1C2694310071959A /* CircleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFC302DF1C2694310071959A /* CircleDemoView.h */,
+				CFC302E01C2694310071959A /* CircleDemoView.m */,
+				CFC302E11C2694310071959A /* CircleLayer.h */,
+				CFC302E21C2694310071959A /* CircleLayer.m */,
+			);
+			path = CircleDemo;
+			sourceTree = "<group>";
+		};
+		CFC302E31C2694310071959A /* CurveDemoView */ = {
+			isa = PBXGroup;
+			children = (
+				CFC302E41C2694310071959A /* CurveDemoView.h */,
+				CFC302E51C2694310071959A /* CurveDemoView.m */,
+				CFC302FA1C26956A0071959A /* KYPullToCurveView */,
+			);
+			path = CurveDemoView;
+			sourceTree = "<group>";
+		};
+		CFC302E61C2694310071959A /* GooeySlideMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFC302E71C2694310071959A /* GooeySlideMenu.h */,
+				CFC302E81C2694310071959A /* GooeySlideMenu.m */,
+				CFC302E91C2694310071959A /* GooeySlideMenuDemoView.h */,
+				CFC302EA1C2694310071959A /* GooeySlideMenuDemoView.m */,
+				CFC302EB1C2694310071959A /* SlideMenuButton.h */,
+				CFC302EC1C2694310071959A /* SlideMenuButton.m */,
+			);
+			path = GooeySlideMenuDemo;
+			sourceTree = "<group>";
+		};
+		CFC302ED1C2694310071959A /* SplashAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFC302EE1C2694310071959A /* SplashAnimationDemoView.h */,
+				CFC302EF1C2694310071959A /* SplashAnimationDemoView.m */,
+			);
+			path = SplashAnimationDemo;
+			sourceTree = "<group>";
+		};
+		CFC302FA1C26956A0071959A /* KYPullToCurveView */ = {
+			isa = PBXGroup;
+			children = (
+				CFC302FB1C26956A0071959A /* KYPullToCurveView.h */,
+				CFC302FC1C26956A0071959A /* KYPullToCurveView.m */,
+				CFC302FE1C269AC70071959A /* KYPullToCurveView_footer.h */,
+				CFC302FF1C269AC70071959A /* KYPullToCurveView_footer.m */,
+				CFC303011C269D840071959A /* CurveView */,
+				CFC303021C269D840071959A /* Helper */,
+				CFC303031C269D840071959A /* LabelView */,
+			);
+			path = KYPullToCurveView;
+			sourceTree = "<group>";
+		};
+		CFC303011C269D840071959A /* CurveView */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3030D1C27B6980071959A /* CurveView.h */,
+				CFC3030E1C27B6980071959A /* CurveView.m */,
+				CFC303131C27B7B90071959A /* CurveLayer.h */,
+				CFC303141C27B7B90071959A /* CurveLayer.m */,
+			);
+			path = CurveView;
+			sourceTree = "<group>";
+		};
+		CFC303021C269D840071959A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CFC303071C269FBD0071959A /* UIView+Convenient.h */,
+				CFC303081C269FBD0071959A /* UIView+Convenient.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CFC303031C269D840071959A /* LabelView */ = {
+			isa = PBXGroup;
+			children = (
+				CFC303041C269DAF0071959A /* LabelView.h */,
+				CFC303051C269DAF0071959A /* LabelView.m */,
+			);
+			path = LabelView;
 			sourceTree = "<group>";
 		};
 		CFDF7AD51C1E722200E248A0 /* MainVC */ = {
 			isa = PBXGroup;
 			children = (
+				CF3841181D0D64C800811F7A /* KYBubbleTransition */,
+				CF3841031D0D1C5F00811F7A /* KYCooeyMenu */,
+				CF3840FF1D0D169D00811F7A /* SnowEffectDemo */,
+				CF8019EB1D06CF670009317B /* DynamicActionBlockDemo */,
+				CF56601A1D067BCF007FB8C2 /* DownLoadButton */,
+				CF3A69C01D04182F00F4013A /* JumpStartDemoView */,
+				CF4B0D6E1CF9E29600045A42 /* MCFireworksButtonDemo */,
+				CF68361F1CF83EC100D41814 /* InteractiveCardDemo */,
+				CF0771B01CF71D2F00580B94 /* PingTransition */,
+				CF496F0B1CF706BD00FADEA7 /* LoadingHud */,
+				CFC302DE1C2694310071959A /* CircleDemo */,
+				CFC302E31C2694310071959A /* CurveDemoView */,
+				CFC302E61C2694310071959A /* GooeySlideMenuDemo */,
+				CFC302ED1C2694310071959A /* SplashAnimationDemo */,
+				CF65CE871C1AEF80008D3DDD /* AnimationViews */,
 				CF65CE501C1ACE9F008D3DDD /* ViewController.h */,
 				CF65CE511C1ACE9F008D3DDD /* ViewController.m */,
 				CF65CE531C1ACE9F008D3DDD /* Main.storyboard */,
@@ -226,19 +521,6 @@
 				CF65CE851C1AEDDC008D3DDD /* LTDisplayVC.m */,
 			);
 			name = MainVC;
-			sourceTree = "<group>";
-		};
-		CFDF7AD91C1E78B400E248A0 /* GooeySlideMenuDemo */ = {
-			isa = PBXGroup;
-			children = (
-				CFDF7ADA1C1E796900E248A0 /* GooeySlideMenuDemoView.h */,
-				CFDF7ADB1C1E796900E248A0 /* GooeySlideMenuDemoView.m */,
-				CFDF7ADD1C1E7CBE00E248A0 /* GooeySlideMenu.h */,
-				CFDF7ADE1C1E7CBE00E248A0 /* GooeySlideMenu.m */,
-				CFDF7AE01C1E7CD300E248A0 /* SlideMenuButton.h */,
-				CFDF7AE11C1E7CD300E248A0 /* SlideMenuButton.m */,
-			);
-			name = GooeySlideMenuDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +626,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6836161CF7E83700D41814 /* View.xib in Resources */,
 				CF65CE5A1C1ACE9F008D3DDD /* LaunchScreen.storyboard in Resources */,
 				CF65CE571C1ACE9F008D3DDD /* Assets.xcassets in Resources */,
 				CF65CE551C1ACE9F008D3DDD /* Main.storyboard in Resources */,
@@ -371,19 +654,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDF7ADF1C1E7CBE00E248A0 /* GooeySlideMenu.m in Sources */,
-				CF65CE951C1BCB5A008D3DDD /* CircleLayer.m in Sources */,
-				CFDF7AD81C1E72B900E248A0 /* CurveDemoView.m in Sources */,
-				CFDF7ADC1C1E796900E248A0 /* GooeySlideMenuDemoView.m in Sources */,
-				CF65CE7F1C1AD0D7008D3DDD /* LTUtilPackage.m in Sources */,
+				CFC302F41C2694310071959A /* GooeySlideMenuDemoView.m in Sources */,
+				CF38411D1D0D64E000811F7A /* KYBubbleInteractiveTransition.m in Sources */,
+				CF3841131D0D1D8500811F7A /* KYSpringLayerAnimation.m in Sources */,
+				CF3841021D0D16C200811F7A /* SnowEffectsDemoView.m in Sources */,
+				CFC303151C27B7B90071959A /* CurveLayer.m in Sources */,
+				CFC302FD1C26956A0071959A /* KYPullToCurveView.m in Sources */,
+				CFC302F61C2694310071959A /* SplashAnimationDemoView.m in Sources */,
+				CF3A69C31D04186900F4013A /* JumpStarDemoView.m in Sources */,
+				CF6836091CF7397200D41814 /* PingTransitionDemoView.m in Sources */,
+				CF496F0E1CF7075400FADEA7 /* LoadingHUDView.m in Sources */,
+				CF56601D1D067BF7007FB8C2 /* DownloadButtonDemoView.m in Sources */,
+				CFC303061C269DAF0071959A /* LabelView.m in Sources */,
+				CFA52EB11D05190100C65D2D /* UIImage+Custom.m in Sources */,
+				CF3841161D0D1D9C00811F7A /* Cross.m in Sources */,
+				CFC302F11C2694310071959A /* CircleLayer.m in Sources */,
+				CF0E79801CFC6BEE00D83080 /* MCFireworksView.m in Sources */,
+				CFC3030F1C27B6980071959A /* CurveView.m in Sources */,
+				CF6836141CF7664A00D41814 /* CustomConvertTransition.m in Sources */,
+				CF4B0D761CF9E3B800045A42 /* MCFireworksButton.m in Sources */,
+				CFC302F21C2694310071959A /* CurveDemoView.m in Sources */,
 				CF65CE521C1ACE9F008D3DDD /* ViewController.m in Sources */,
+				CF68361B1CF80CD000D41814 /* SecondViewController.m in Sources */,
+				CF68360C1CF73D9700D41814 /* CustomTransition.m in Sources */,
+				CF4B0D731CF9E34900045A42 /* MCFireworksButtonDemoView.m in Sources */,
+				CFC303001C269AC70071959A /* KYPullToCurveView_footer.m in Sources */,
 				CF65CE4F1C1ACE9F008D3DDD /* AppDelegate.m in Sources */,
+				CFC302F31C2694310071959A /* GooeySlideMenu.m in Sources */,
+				CF6836221CF83F0B00D41814 /* InteractiveCardDemoView.m in Sources */,
 				CF65CE8D1C1BC91A008D3DDD /* ParentView.m in Sources */,
+				CFA52EB41D05197F00C65D2D /* LTUtilPackage.m in Sources */,
+				CF38411E1D0D64E000811F7A /* KYBubbleTransition.m in Sources */,
 				CF65CE861C1AEDDC008D3DDD /* LTDisplayVC.m in Sources */,
-				CF65CE911C1BCABC008D3DDD /* CircleDemoView.m in Sources */,
-				CF65CE831C1ADF76008D3DDD /* UIImage+Custom.m in Sources */,
-				CFDF7AE21C1E7CD300E248A0 /* SlideMenuButton.m in Sources */,
+				CF5660201D067C51007FB8C2 /* DownButton.m in Sources */,
+				CFC302F01C2694310071959A /* CircleDemoView.m in Sources */,
+				CF38410D1D0D1D2800811F7A /* Menu.m in Sources */,
+				CFC302F51C2694310071959A /* SlideMenuButton.m in Sources */,
+				CF3841211D0D657600811F7A /* BubbleTransitionView.m in Sources */,
+				CF3841101D0D1D4E00811F7A /* MenuLayer.m in Sources */,
+				CF3841061D0D1C9B00811F7A /* GooeyMenuDemoView.m in Sources */,
+				CF38410A1D0D1D0800811F7A /* KYGooeyMenu.m in Sources */,
 				CF65CE4C1C1ACE9F008D3DDD /* main.m in Sources */,
+				CFC303091C269FBD0071959A /* UIView+Convenient.m in Sources */,
+				CF8019EE1D06CF8D0009317B /* DynamicActionBlockDemoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

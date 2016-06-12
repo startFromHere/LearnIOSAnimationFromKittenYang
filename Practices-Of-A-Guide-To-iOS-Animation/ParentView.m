@@ -17,6 +17,6 @@
 }
 
 -(void)config{
-
 }
+
 @end

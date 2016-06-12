@@ -11,6 +11,7 @@
 @interface ParentView : UIView
 
 @property (nonatomic,weak) LTDisplayVC *delegate;
+
 +(instancetype)demoView;
 
 @end

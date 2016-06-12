@@ -28,7 +28,7 @@
     if (!_themes) {
         NSError *error;
         _themes=[NSMutableArray array];
-        NSString *path=@"/Users/liutao/Desktop/sourceCodeDownload/A-GUIDE-TO-iOS-ANIMATION-master";
+        NSString *path=@"/Users/liutao/Desktop/sourceCodeDownload/IOS/A-GUIDE-TO-iOS-ANIMATION-master";
         NSArray *files=[_fm contentsOfDirectoryAtPath:path error:&error];
         
         for (NSString *theme in files) {
@@ -51,6 +51,7 @@
             }
         }
     }
+    NSLog(@"themes:%@",_themes);
     return _themes;
 }
 
