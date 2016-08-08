@@ -19,6 +19,8 @@
 		CF38411E1D0D64E000811F7A /* KYBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38411C1D0D64E000811F7A /* KYBubbleTransition.m */; };
 		CF3841211D0D657600811F7A /* BubbleTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3841201D0D657600811F7A /* BubbleTransitionView.m */; };
 		CF3A69C31D04186900F4013A /* JumpStarDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3A69C21D04186900F4013A /* JumpStarDemoView.m */; };
+		CF3C52961D570CE900E7092F /* WaterWaveDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C52951D570CE900E7092F /* WaterWaveDemoView.m */; };
+		CF3C529C1D5713A900E7092F /* LTWave.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C529B1D5713A900E7092F /* LTWave.m */; };
 		CF496F0E1CF7075400FADEA7 /* LoadingHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF496F0D1CF7075400FADEA7 /* LoadingHUDView.m */; };
 		CF4B0D731CF9E34900045A42 /* MCFireworksButtonDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4B0D721CF9E34900045A42 /* MCFireworksButtonDemoView.m */; };
 		CF4B0D761CF9E3B800045A42 /* MCFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4B0D751CF9E3B800045A42 /* MCFireworksButton.m */; };
@@ -100,6 +102,10 @@
 		CF3841201D0D657600811F7A /* BubbleTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleTransitionView.m; sourceTree = "<group>"; };
 		CF3A69C11D04186900F4013A /* JumpStarDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpStarDemoView.h; sourceTree = "<group>"; };
 		CF3A69C21D04186900F4013A /* JumpStarDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpStarDemoView.m; sourceTree = "<group>"; };
+		CF3C52941D570CE900E7092F /* WaterWaveDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaterWaveDemoView.h; path = WaterWaveDemo/WaterWaveDemoView.h; sourceTree = "<group>"; };
+		CF3C52951D570CE900E7092F /* WaterWaveDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaterWaveDemoView.m; path = WaterWaveDemo/WaterWaveDemoView.m; sourceTree = "<group>"; };
+		CF3C529A1D5713A900E7092F /* LTWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTWave.h; path = WaterWaveDemo/LTWave.h; sourceTree = "<group>"; };
+		CF3C529B1D5713A900E7092F /* LTWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTWave.m; path = WaterWaveDemo/LTWave.m; sourceTree = "<group>"; };
 		CF496F0C1CF7075400FADEA7 /* LoadingHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingHUDView.h; path = LoadingHUD/LoadingHUDView.h; sourceTree = "<group>"; };
 		CF496F0D1CF7075400FADEA7 /* LoadingHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingHUDView.m; path = LoadingHUD/LoadingHUDView.m; sourceTree = "<group>"; };
 		CF4B0D711CF9E34900045A42 /* MCFireworksButtonDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCFireworksButtonDemoView.h; path = MCFireworksButtonDemo/MCFireworksButtonDemoView.h; sourceTree = "<group>"; };
@@ -274,6 +280,17 @@
 				CF3A69C21D04186900F4013A /* JumpStarDemoView.m */,
 			);
 			path = JumpStartDemoView;
+			sourceTree = "<group>";
+		};
+		CF3C52931D570C9C00E7092F /* WaterWaveDemoView */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C52941D570CE900E7092F /* WaterWaveDemoView.h */,
+				CF3C52951D570CE900E7092F /* WaterWaveDemoView.m */,
+				CF3C529A1D5713A900E7092F /* LTWave.h */,
+				CF3C529B1D5713A900E7092F /* LTWave.m */,
+			);
+			name = WaterWaveDemoView;
 			sourceTree = "<group>";
 		};
 		CF496F0B1CF706BD00FADEA7 /* LoadingHud */ = {
@@ -499,6 +516,7 @@
 		CFDF7AD51C1E722200E248A0 /* MainVC */ = {
 			isa = PBXGroup;
 			children = (
+				CF3C52931D570C9C00E7092F /* WaterWaveDemoView */,
 				CF3841181D0D64C800811F7A /* KYBubbleTransition */,
 				CF3841031D0D1C5F00811F7A /* KYCooeyMenu */,
 				CF3840FF1D0D169D00811F7A /* SnowEffectDemo */,
@@ -658,8 +676,10 @@
 				CF38411D1D0D64E000811F7A /* KYBubbleInteractiveTransition.m in Sources */,
 				CF3841131D0D1D8500811F7A /* KYSpringLayerAnimation.m in Sources */,
 				CF3841021D0D16C200811F7A /* SnowEffectsDemoView.m in Sources */,
+				CF3C52961D570CE900E7092F /* WaterWaveDemoView.m in Sources */,
 				CFC303151C27B7B90071959A /* CurveLayer.m in Sources */,
 				CFC302FD1C26956A0071959A /* KYPullToCurveView.m in Sources */,
+				CF3C529C1D5713A900E7092F /* LTWave.m in Sources */,
 				CFC302F61C2694310071959A /* SplashAnimationDemoView.m in Sources */,
 				CF3A69C31D04186900F4013A /* JumpStarDemoView.m in Sources */,
 				CF6836091CF7397200D41814 /* PingTransitionDemoView.m in Sources */,

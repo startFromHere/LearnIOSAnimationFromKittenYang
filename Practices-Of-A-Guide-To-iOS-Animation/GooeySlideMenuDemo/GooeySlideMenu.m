@@ -230,6 +230,7 @@
 }
 
 - (void)displayLinkAction:(CADisplayLink *)dis{
+    NSLog(@"执行了");
     CALayer *sideHelperPresentationLayer = (CALayer *)[helperSideView.layer presentationLayer];
     CALayer *centerHelperPresentationLayer = (CALayer *)[helperCenterView.layer presentationLayer];
     

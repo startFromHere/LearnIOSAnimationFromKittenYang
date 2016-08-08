@@ -25,24 +25,43 @@
     self.title=@"DEMO列表";
 //    LTUtilPackage *util=[[LTUtilPackage alloc]init];
 //    themes=[util.themes copy];
+//    themes = @[
+//              @"CircleDemoView",
+//              @"CurveDemoView",
+//              @"DownloadButtonDemoView",
+//              @"DynamicActionBlockDemoView",
+//              @"GooeySlideMenuDemoView",
+//              @"InteractiveCardDemoView",
+//              @"JumpStarDemoView",
+//              @"BubbleTransitionView",
+//              @"GooeyMenuDemoView",
+//              @"LoadingHUDView",
+//              @"PingTransitionDemoView",
+//              @"MCFireworksButtonDemoView",
+//              @"SnowEffectsDemoView",
+//              @"SplashAnimationDemoView",
+//              @"tvOSCardAnimationDemoView",
+//              @"UIDynamicsDemoView"
+//              ];
     themes = @[
-              @"CircleDemoView",
-              @"CurveDemoView",
-              @"DownloadButtonDemoView",
-              @"DynamicActionBlockDemoView",
-              @"GooeySlideMenuDemoView",
-              @"InteractiveCardDemoView",
-              @"JumpStarDemoView",
-              @"BubbleTransitionView",
-              @"GooeyMenuDemoView",
-              @"LoadingHUDView",
-              @"PingTransitionDemoView",
-              @"MCFireworksButtonDemoView",
-              @"SnowEffectsDemoView",
-              @"SplashAnimationDemoView",
-              @"tvOSCardAnimationDemoView",
-              @"UIDynamicsDemoView"
-              ];
+               @"CircleDemoView",
+               @"CurveDemoView",
+               @"DownloadButtonDemoView",
+//               @"DynamicActionBlockDemoView",
+               @"GooeySlideMenuDemoView",
+               @"InteractiveCardDemoView",
+               @"JumpStarDemoView",
+//               @"BubbleTransitionView",
+               @"GooeyMenuDemoView",
+               @"LoadingHUDView",
+               @"PingTransitionDemoView",
+               @"MCFireworksButtonDemoView",
+               @"SnowEffectsDemoView",
+               @"SplashAnimationDemoView",
+               @"WaterWaveDemoView",
+//               @"tvOSCardAnimationDemoView",
+//               @"UIDynamicsDemoView"
+               ];
 
     [self configTableView];
 }
@@ -51,7 +70,7 @@
     _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREENSIZE.width, SCREENSIZE.height)];
     _tableView.delegate=self;
     _tableView.dataSource=self;
-    _tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
+    _tableView.separatorStyle=UITableViewCellSeparatorStyleSingleLine;
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     [self.view addSubview:_tableView];
 }
@@ -77,9 +96,9 @@
     cell.imageView.image=[UIImage imageWithIndex:indexPath.row];
     cell.textLabel.text=themes[indexPath.row];
     
-    UIView *seperateView=[[UIView alloc]initWithFrame:CGRectMake(0, cell.bounds.size.height-1, SCREENSIZE.width, 1)];
-    seperateView.backgroundColor=[UIColor grayColor];
-    [cell addSubview:seperateView];
+//    UIView *seperateView=[[UIView alloc]initWithFrame:CGRectMake(0, cell.bounds.size.height-1, SCREENSIZE.width, 1)];
+//    seperateView.backgroundColor=[UIColor grayColor];
+//    [cell addSubview:seperateView];
     
     return cell;
 }

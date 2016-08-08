@@ -20,19 +20,10 @@
 //    view.transform = CGAffineTransformIdentity;
     presentedView = (BubbleTransitionView *)view;
     UIPanGestureRecognizer *panGes = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(edgeGesPan:)];
-
-//    NSLog(@"presentView:%p",presentedView);
-//    UIScreenEdgePanGestureRecognizer *edgeGes = [[UIScreenEdgePanGestureRecognizer alloc]initWithTarget:self action:@selector(edgeGesPan:)];
-//    edgeGes.edges = UIRectEdgeLeft;
     [presentedView addGestureRecognizer:panGes];
 }
 
--(void)tap:(UITapGestureRecognizer*)tap{
-    NSLog(@"点击了");
-}
-
 -(void)edgeGesPan:(UIPanGestureRecognizer *)edgeGes{
-    
     CGFloat translation =[edgeGes translationInView:presentedView].x;
     NSLog(@"%@",NSStringFromCGRect(presentedView.frame));
     percent = translation / (presentedView.bounds.size.width);
@@ -48,8 +39,6 @@
             break;
         }
         case UIGestureRecognizerStateChanged:{
-            
-            
             [self updateInteractiveTransition:percent];
             break;
         }

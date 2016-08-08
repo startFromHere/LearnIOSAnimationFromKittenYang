@@ -8,12 +8,14 @@
 
 #import "BubbleTransitionView.h"
 #import "KYBubbleInteractiveTransition.h"
-@implementation BubbleTransitionView
+@implementation BubbleTransitionView{
+    KYBubbleInteractiveTransition *trans;
+}
 
 -(void)config{
     
     NSLog(@"bubbleView:%@",self);
-    KYBubbleInteractiveTransition *trans = [[KYBubbleInteractiveTransition alloc]init];
+    trans = [[KYBubbleInteractiveTransition alloc]init];
     [trans addPopGesture:self];
 }
 
